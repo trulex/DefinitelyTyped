@@ -376,6 +376,7 @@ export namespace Requests {
      */
     interface ResponseModel extends AuditableModel {
         readonly url: string;
+        readonly id: number;
         readonly subject: string;
         readonly description: string;
         readonly status: Tickets.Status;
